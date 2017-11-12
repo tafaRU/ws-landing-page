@@ -1,0 +1,105 @@
+/* === RESET === */
+/* Border box, for padding in grid gutter */
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+/* === END RESET === */
+
+/* === GRID === */
+.row:after,
+.cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*='col-'] {
+    float: left;
+}
+
+[class*='col-']:last-of-type {
+    padding-right: 0;
+}
+
+.col-sm-1-2 {
+    padding-right: 20px;
+    width: 50%;
+}
+
+@media screen and (min-width: 40em) {
+    [class*='col-'] {
+        padding-right: 20px;
+    }
+
+    .col-md-1-2 {
+        width: 50%;
+    }
+}
+/* === END GRID === */
+
+
+body {
+    font-family: sans-serif;
+    background-color: #ECE6E2;
+    color: #0D141C;
+}
+
+.container {
+    padding: 0 1em;
+}
+
+header {
+    background-color: #A6A4A8;
+    border: 1px solid #A6A4A8;
+    margin-bottom: 3em;
+}
+
+header h1 {
+    margin: 1em 0;
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+h2 {
+    margin: 0 0 1em;
+}
+
+ul {
+    margin-bottom: 2em;
+}
+
+a {
+    color: #2B5C6F;
+}
+
+footer {
+    background-color: #A6A4A8;
+    border: 1px solid #A6A4A8;
+    margin-top: 3em;
+    padding: 1em;
+}
+
+/* === MEDIA QUERIES === */
+@media screen and (min-width: 40em) {
+    .container {
+        margin: 0 auto;
+        width: 40em;
+    }
+}
+/* === END MEDIA QUERIES === */

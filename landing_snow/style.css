@@ -1,0 +1,107 @@
+/* === RESET === */
+body, video {
+    margin: 0;
+}
+/* === END RESET === */
+
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+.hero-container {
+    height: 100vh;
+    position: relative;
+}
+
+.hero-video-background {
+    display: none;
+}
+
+.hero-text {
+    position: absolute;
+    top: 25%;
+    color: #FFF;
+    width: 100%;
+    text-shadow: 0px 0px 2px #000;
+    text-align: center;
+}
+
+.hero-text p {
+    margin: 0 0 1em;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.hero-text button {
+    background-color: #930;
+    border-radius: 2px;
+    border: 0;
+    color: #FFF;
+    font-size: 2em;
+    padding: 0.5em 2em;
+    box-shadow: 0 0 5px #000;
+}
+
+.hero-text button:hover {
+    background-color: #620;
+}
+
+.hero-text button:active {
+    background-color: #310;
+}
+
+.hero-credit {
+    position: absolute;
+    bottom: 5%;
+    color: #FFF;
+    padding-left: 1em;
+    text-shadow: 0px 0px 2px #000;
+}
+
+.hero-container,
+.hero-picture-container {
+    height: 100vh;
+    position: relative;
+}
+
+.hero-background-cable-car {
+     background-image: url("Cable_Car.jpg");
+     background-size: cover;
+     width: 100%;
+     height: 100%;
+}
+
+.hero-background-cabin {
+     background-image: url("wesley-tingey-176386.jpg");
+     background-size: cover;
+     width: 100%;
+     height: 100%;
+}
+
+/* === MEDIA QUERIES === */
+
+@media screen and (min-width: 40em) {
+    .hero-container {
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+    }
+
+    .hero-background-cable-car {
+        display: none;
+    }
+
+    .hero-video-background {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-text {
+        top: 45%;
+    }
+}
+
+/* === END MEDIA QUERIES === */

@@ -19,6 +19,7 @@ We have developed two landing page examples, that you can check:
 
 - [Present a mobile app](http://turnintocoders.github.io/landing_page_workshop/landing_app), with links to the stores
 - [Present YouTube video of a music band](http://turnintocoders.github.io/landing_page_workshop/landing_form), with a subscribe form
+- [Book a room](http://turnintocoders.github.io/landing_page_workshop/landing_snow), in a cabin in the middle of a snowy forest
 
 ## Suggested projects
 

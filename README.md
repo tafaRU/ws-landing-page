@@ -11,15 +11,15 @@ Have a look to what we do: [Turn into Coders](www.turnintocoders.com)
 
 ## Slides
 
-You can [download the slides](https://github.com/turnintocoders/landing_page_workshop/blob/master/presentation.pdf) that we use in this workshop.
+You can [download the slides](https://github.com/turnintocoders/ws-landing-page/blob/master/presentation.pdf) that we use in this workshop.
 
 ## Examples
 
 We have developed two landing page examples, that you can check:
 
-- [Present a mobile app](http://turnintocoders.github.io/landing_page_workshop/landing_app), with links to the stores
-- [Present YouTube video of a music band](http://turnintocoders.github.io/landing_page_workshop/landing_form), with a subscribe form
-- [Book a room](http://turnintocoders.github.io/landing_page_workshop/landing_snow), in a cabin in the middle of a snowy forest
+- [Present a mobile app](http://turnintocoders.github.io/ws-landing-page/landing_app), with links to the stores
+- [Present YouTube video of a music band](http://turnintocoders.github.io/ws-landing-page/landing_form), with a subscribe form
+- [Book a room](http://turnintocoders.github.io/ws-landing-page/landing_snow), in a cabin in the middle of a snowy forest
 
 ## Suggested projects
 

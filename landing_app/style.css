@@ -20,21 +20,15 @@ body {
 }
 
 .flex-col-row {
-    flex-direction: column-reverse;
+    flex-wrap: wrap;
 }
 
 .col-sm-1-2 {
     width: 48%;
 }
 
-@media screen and (min-width: 40em) {
-    .flex-col-row {
-        flex-direction: row;
-    }
-
-    .col-md-1-2 {
-        width: 48%;
-    }
+.col-md-1-2 {
+    max-width: 19em;
 }
 /* === END GRID === */
 
@@ -46,6 +40,8 @@ body {
 }
 
 .container {
+    margin: 0 auto;
+    max-width: 40em;
     padding: 0 1em;
 }
 
@@ -84,10 +80,8 @@ footer {
 }
 
 /* === MEDIA QUERIES === */
-@media screen and (min-width: 40em) {
-    .container {
-        margin: 0 auto;
-        width: 40em;
+@media screen and (max-width: 40em) {
+    .flex-col-row {
+        flex-direction: column-reverse;
     }
 }
-/* === END MEDIA QUERIES === */

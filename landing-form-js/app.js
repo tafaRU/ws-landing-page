@@ -13,8 +13,8 @@ menuOpen.addEventListener("click", function(event) {
 });
 
 // Hides nav element by clicking on element with menu-close class
-var menuOpen = document.querySelector(".menu-close");
-menuOpen.addEventListener("click", function(event) {
+var menuClose = document.querySelector(".menu-close");
+menuClose.addEventListener("click", function(event) {
     document.querySelector("nav").classList.remove("nav-open");
     document.querySelector(".menu-close").style.display = "none";
     document.querySelector(".menu-open").style.display = "block";
@@ -40,7 +40,7 @@ email.addEventListener("input", function(event) {
 // https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation
 function isEmailValid(email) {
     var emailRegExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)$/;
-    if(email.length > 0 && emailRegExp.test(email)) {
+    if(emailRegExp.test(email)) {
         return true;
     }
     return false;

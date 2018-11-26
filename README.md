@@ -17,9 +17,9 @@ You can [download the slides](https://github.com/turnintocoders/ws-landing-page/
 
 We have developed two landing page examples, that you can check:
 
-- [Present a mobile app](http://turnintocoders.github.io/ws-landing-page/landing_app), with links to the stores
-- [Present YouTube video of a music band](http://turnintocoders.github.io/ws-landing-page/landing_form), with a subscribe form
-- [Book a room](http://turnintocoders.github.io/ws-landing-page/landing_snow), in a cabin in the middle of a snowy forest
+- [Present a mobile app](http://turnintocoders.github.io/ws-landing-page/landing-app), with links to the stores
+- [Present YouTube video of a music band](http://turnintocoders.github.io/ws-landing-page/landing-form), with a subscribe form
+- [Book a room](http://turnintocoders.github.io/ws-landing-page/landing-snow), in a cabin in the middle of a snowy forest
 
 ## Suggested projects
 
